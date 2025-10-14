@@ -6,7 +6,7 @@ class Book {
     int price;
     int numPages;
 
-    // Parameterized constructor
+   
     Book(String name, String author, int price, int numPages) {
         this.name = name;
         this.author = author;
@@ -14,7 +14,7 @@ class Book {
         this.numPages = numPages;
     }
 
-    // Overriding toString()
+    
     public String toString() {
         return "Book Name: " + name + "\n"
                 + "Author Name: " + author + "\n"
@@ -33,7 +33,7 @@ public class PROGRAM3 {
 
         for (int i = 0; i < n; i++) {
             System.out.println("\nEnter details for Book " + (i + 1) + ":");
-            s.nextLine();  // Consume the leftover newline after nextInt()
+            s.nextLine();  
 
             System.out.print("Name: ");
             String name = s.nextLine();
@@ -57,4 +57,5 @@ public class PROGRAM3 {
         s.close();
     }
 }
+
 
